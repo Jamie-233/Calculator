@@ -1,0 +1,86 @@
+body {
+    line-height: 1.4;
+    color: #333;
+    font-family: arial;
+    font-size: 12px;
+}
+
+input,
+textarea,
+select {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+    margin: 0;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1em;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/*image with no-border*/
+img {
+    border: 0;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+#app {
+    position: absolute;
+    width: 99%;
+    top: 0;
+    z-index: 999;
+    font-family: sans-serif;
+}
+.calc-modal-handle {
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    cursor: default;
+}
+
+.modal-body {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
